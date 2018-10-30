@@ -20,7 +20,7 @@ public class Main {
         try {
             n = Integer.parseInt(sc.readLine());
         } catch (IOException e) {
-           //
+           n++;
         }
         int k;String s;
         for(int i=0;i<n;i++){
